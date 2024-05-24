@@ -1,0 +1,27 @@
+.footer{
+    ul{
+        padding: 0;
+        list-style: none;
+    }
+    .input{
+        display: flex;
+        border: 0;
+        border-bottom:1px solid  ;
+        input{
+            width: 80%;
+            border: 0;
+        }
+        button{
+            width: 20%;
+        }
+    }
+    span{
+        color: rgb(204, 204, 204);
+    }
+    .fa-heart{
+        color: rgb(241, 80, 80);
+    }
+    .icons{
+        flex-wrap: wrap;
+    }
+}

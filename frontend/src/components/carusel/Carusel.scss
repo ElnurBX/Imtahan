@@ -1,0 +1,30 @@
+.Carusel__section{
+    .carousel-indicators{
+        width:  20%;
+        button{
+            border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        }
+    }
+    .my-caption{
+        height: 70%;
+        width: 100%;
+        color: black;
+        text-align-last: left;
+        h5{
+            text-transform: uppercase;
+        }
+        h3{
+            width: 26%;
+            font-family: "Libre Baskerville", serif;
+            text-align: left;
+            line-height: 1.4;
+        }
+        button{
+            background: #F45D96;
+            color: #fff;
+            padding: 10px 30px;
+        }
+    }
+}

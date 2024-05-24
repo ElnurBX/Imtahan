@@ -1,0 +1,12 @@
+.header{
+    background: #fff;
+    .nav-link:hover,.active{
+        color: #F45DB0 !important;
+    }
+    .icons{
+        button{
+            border: 0;
+            background: transparent;
+        }
+    }
+}

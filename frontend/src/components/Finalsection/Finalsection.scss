@@ -1,0 +1,35 @@
+.Finalsection{
+    display: flex;
+    height: 40vh;
+    background: #F7F5FA;
+    color: #000;
+    .carousel-caption{
+        height: 80%;
+        color: #000;
+    }
+    &::before{
+        content: '';
+        height: 100%;
+        display: block;
+        width: 20%;
+        background-size: cover;
+        background-position:100% 100%;
+        background-image: url(https://preview.colorlib.com/theme/florist/img/testimonial/left-bg.png.webp);
+    }
+    &::after{
+        content: '';
+        height: 100%;
+        display: block;
+        width: 20%;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://preview.colorlib.com/theme/florist/img/testimonial/right-bg.png.webp);
+    }
+    .carousel-item{
+        height: 40vh;
+    }
+    p{
+        font-family: "Hello Santtiny";
+        font-style: italic;
+    }
+}

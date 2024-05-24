@@ -1,0 +1,23 @@
+.CUSTOMFLOWER{
+    background: url(https://preview.colorlib.com/theme/florist/img/call-bg.jpg);
+    background-size: cover;
+
+    color: #fff;
+    h2{
+        font-family: "Cedarville Cursive", cursive;
+        font-weight: 800;
+        
+    }
+    .buttons{ 
+        display: flex;
+        gap: 5px;
+        .btn-1{
+            background: #F45DB0 ;
+            color: #fff;
+        }
+        .btn-2{
+            color: #F45DB0 ;
+            background:  #fff;
+        }
+    }
+}

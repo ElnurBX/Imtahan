@@ -1,0 +1,101 @@
+.CrudCard{
+    .head{
+        h5{
+            color: #F45D96;
+            font-weight: 600;
+        }
+        h2{
+            font-family: "Libre Baskerville", serif;
+        }
+    }
+    .sorter{
+        flex-wrap: wrap;
+        .active{
+            border: #F45D96 1px solid;
+        }
+    }
+    &__card{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        position: relative;
+        width: 120%;
+        &__img{
+            position: relative;
+            overflow: hidden;
+
+            img{
+                position: relative;
+
+            }
+            span{
+                position: absolute;
+                z-index: 1;
+                left:10px;
+                top: 10px;
+                background: rgb(0, 0, 0);
+                color: #fff;
+                padding:1px 5px;
+            }
+            margin-bottom: 10px;
+        }
+        &:hover{
+            .hoveredtext{
+                .price{
+                    left: -100%;
+                }
+                .addcart{
+                    top: 0px;
+                }
+            }
+            .hover-icons{
+                top:80%;
+                
+            }
+        }
+        .hover-icons{
+            width: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            button{
+                padding: 5px;
+                background-color: #fff;
+                border-radius: 50%;
+                height: 40px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .hoveredtext{
+        transition: all ease 0.5s;
+        position: relative;
+        overflow: hidden;
+        height: 40px;
+        .price{
+            transition: all ease 0.5s;
+            position: absolute;
+            top:0;
+            width: 20%;
+            left: 40%;
+        }
+        .addcart{
+            transition: all ease 0.5s;
+            position: absolute;
+            top:100%;
+            width: 100%;
+            text-align: center;
+            button{
+                color: #F45D96;
+                font-weight: 600;
+            }
+        }
+    }
+   
+}
